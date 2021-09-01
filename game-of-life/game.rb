@@ -1,4 +1,3 @@
-require 'amazing_print'
 class Game
   attr_accessor :grid
   def initialize(arr_size = 8)
@@ -25,7 +24,6 @@ class Game
     display_grid
   end
 end
-
 
 Game.new(8).show_input
 
